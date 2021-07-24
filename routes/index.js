@@ -26,5 +26,9 @@ router.get('/niranjana', function (req, res, next) {
   res.render('niranjana');
 });
 
+router.get('/karm', function (req, res, next) {
+  res.render('karm');
+});
+
 
 module.exports = router;
